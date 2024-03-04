@@ -1,0 +1,89 @@
+body{
+    margin: 20px;
+    font-family: sans-serif,arial;
+    background-color:rgb(0, 0, 0);
+}
+
+header{
+    background-color: blueviolet;
+    border-style: inset;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: fuchsia;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+h1{
+    text-shadow: 3px 3px 5px pink,-3px -3px 5px fuchsia;
+    color: aqua;
+    text-align: center;
+}
+
+
+.linksnav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: fit-content;
+}
+.linksnav a{
+    color: aqua;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+.linksnav a:hover{
+    background-color:rgb(255, 0, 0) ;
+    color: white;
+}
+.linksnav a:active{
+    background-color: white;
+    color: black;
+}
+.linksnav li{
+    float: left;
+}
+
+footer{
+    background-color: blueviolet;
+    border-style: inset;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: fuchsia;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+.linksfinal a{
+    color: aqua;
+    text-decoration: none;
+    padding: 50px;
+}
+.linksfinal a:hover{
+    color: red;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flow-root;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    color: white;
+}
+
+#corpo{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#imagem{
+    float: left;
+    margin: 10px;
+}
