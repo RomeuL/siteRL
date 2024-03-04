@@ -14,14 +14,11 @@ header{
     position: relative;
     bottom: 10px;
 }
-
 h1{
     text-shadow: 3px 3px 5px pink,-3px -3px 5px fuchsia;
     color: aqua;
     text-align: center;
 }
-
-
 .linksnav ul{
     list-style-type: none;
     padding: 0px;
@@ -58,11 +55,10 @@ footer{
     top: 10px;
     text-align: center;
 }
-
 .linksfinal a{
     color: aqua;
     text-decoration: none;
-    padding: 50px;
+    padding: 0px;
 }
 .linksfinal a:hover{
     color: red;
@@ -77,10 +73,16 @@ main{
     border-color: aquamarine;
     color: white;
 }
-
-#corpo{
+.corpo{
     margin-left: 20px;
     margin-bottom: 20px;
+}
+.corpo a{
+    color: red;
+    text-decoration: none;
+}
+.corpo a:hover{
+    color: aqua;
 }
 
 #imagem{
