@@ -57,3 +57,20 @@ button:active{
     gap: 10px;
     padding: 25px;
 }
+@media screen and (max-widht:768px){
+    body{
+        margin: 5px;
+    }
+    
+    header{
+        bottom: 5px;
+    }
+    main{
+        margin-left: 5px;
+        margin-right:5px;
+    }
+    .corpo{
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    }
