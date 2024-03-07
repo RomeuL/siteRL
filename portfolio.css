@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #1a1a1a, #000);
+    color: #fff;
+    font-family:sans-serif;
+    line-height: 1.6;
+    margin-top:60px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+        position: fixed;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        top: 60px;
+        left: 0;
+        padding: 20px;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+.titulo h1 {
+   font-size: 3rem;
+   font-family: sans-serif;
+   color: #ff0000;
+   text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.3);
+}
+.titulo p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 15px;
+}
+h2 {
+    font-size: 1.5rem;
+    color: hsl(0, 100%, 40%);
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sobremim,
+.habilidades {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagens img,
+.projeto img {
+    margin-top: 25px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 25px;
+}
+
+.imagens img:hover,
+.projeto img:hover {
+    transform:scale(1.2);
+    box-shadow: 2px 2px 2px hsl(0, 100%, 50%);
+}
+
+.projeto-img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.projeto-carousel {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.projeto {
+    max-width: 300px;
+    text-align: center;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.projeto h3{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ff4500;
+}
+
+.projeto p {
+    font-size: 0.9rem;
+}
