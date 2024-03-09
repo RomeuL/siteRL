@@ -5,11 +5,11 @@ body{
 }
 
 header{
-    background-color: hsl(0, 100%, 25%);
+    background-color: #5247b9;
     border-style: inset;
     border-radius: 10px;
     border-width: 4px;
-    border-color: hsl(0, 100%, 50%);
+    border-color: #86A8DB;
     text-align: center;
     position: relative;
     bottom: 10px;
@@ -34,7 +34,7 @@ h1{
     border-radius: 10px;
 }
 .linksnav a:hover{
-    background-color:rgb(255, 0, 0) ;
+    background-color:hsl(185, 100%, 50%);
     color: white;
 }
 .linksnav a:active{
@@ -46,11 +46,11 @@ h1{
 }
 
 footer{
-    background-color: hsl(0, 100%, 25%);
+    background-color: #5247b9;
     border-style: inset;
     border-radius: 10px;
     border-width: 4px;
-    border-color: hsl(0, 100%, 50%);
+    border-color: #86A8DB;
     position: relative;
     top: 10px;
     text-align: center;
