@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual condimento que se passar uma água sai?</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>CONDIMENTO</h1>
+        
+            <nav class="linksnav">
+            <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="Downloads.html">Downloads</a></li>
+            </ul>
+            </nav>
+    </header>
+
+    <section class="conversor">
+        <label for="decimal">Decimal:</label>
+        <input type="text" id="decimal" oninput="decimalToBinary(this.value)" placeholder="Digite um número decimal">
+
+        <p>Binário: <span id="binaryOutput"></span></p>
+
+        <br>
+
+        <label for="binary">Binário:</label>
+        <input type="text" id="binary" oninput="binaryToDecimal(this.value)" placeholder="Digite um número binário">
+
+        <p>Decimal: <span id="decimalOutput"></span></p>
+
+        <script src="conversor.js"></script>
+    </section>
+
+    <footer>
+        <div>
+            <pr>Autor: RL</pr> <br>
+            <pr>&copy; Direitos Reservados</pr> <br>
+            <div class="linksfinal">
+                <a href="mailto:romeulcs1@gmail.com">Entre em contato</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
