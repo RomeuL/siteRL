@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const condimento = condimentoInput.value.trim().toLowerCase();
         const respostascorretas = ["barbecue", "Barbecue", "BARBECUE"];
         if (respostascorretas.includes(condimento)) {
-            carregarImagem("barbe.jpg", "barbecuitch.mp3");
+            carregarImagem("assets/barbe.jpg", "assets/barbecuitch.mp3");
             
         } else {
             alert("Resposta errada");
