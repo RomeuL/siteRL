@@ -138,9 +138,8 @@ main{
     background-color: #86A8DB;
     text-align: center;
     padding: 40px;
-    margin-left: 1000px;
-    margin-right: 1000px;
     border-radius: 50px;
+    margin: 100px;
 }
 #decimal{
     height: 20px;
